@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #2c3e50, #3498db);
+    color: white;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.timer {
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.controls, .mode {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+button.active {
+    background: rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+}
+
+#start {
+    background: #2ecc71;
+}
+
+#start:hover {
+    background: #27ae60;
+}
+
+#pause {
+    background: #e74c3c;
+}
+
+#pause:hover {
+    background: #c0392b;
+}
+
+#reset {
+    background: #95a5a6;
+}
+
+#reset:hover {
+    background: #7f8c8d;
+} 
