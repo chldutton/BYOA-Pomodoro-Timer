@@ -10,8 +10,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #2c3e50, #3498db);
-    color: white;
+    background: linear-gradient(45deg, #E6E6FA, #DDA0DD);
+    color: #2c3e50;
 }
 
 .container {
